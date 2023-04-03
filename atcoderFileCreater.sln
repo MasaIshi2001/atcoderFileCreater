@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atcoderFileCreater", "atcoderFileCreater\atcoderFileCreater.csproj", "{EF08679E-8219-4F09-AA0D-C543846B4562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF08679E-8219-4F09-AA0D-C543846B4562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF08679E-8219-4F09-AA0D-C543846B4562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF08679E-8219-4F09-AA0D-C543846B4562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF08679E-8219-4F09-AA0D-C543846B4562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A57AE4FA-8A21-4697-AEC6-FFEBAC4DAD27}
+	EndGlobalSection
+EndGlobal
