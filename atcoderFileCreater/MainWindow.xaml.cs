@@ -68,7 +68,7 @@ namespace atcoderFileCreater
 
                 }
 
-                
+                string[] alpha_lis = new string[8] {"A","B","C","D","E","F","G","GX"}; 
 
                 if (category == "90")
                 {
@@ -93,7 +93,7 @@ namespace atcoderFileCreater
                 {
                     for (int i = 1; i < 6; i++)
                     {
-                        string fileName = path + "/" +category + text.PadLeft(3, '0') + "_" + i.ToString() + lang2;
+                        string fileName = path + "/" +category + text.PadLeft(3, '0') + "_" + alpha_lis[i-1] + lang2;
                         FileInfo fileInfo = new FileInfo(fileName);
                         if (File.Exists(fileName))
                         {
